@@ -9,14 +9,14 @@ public class Exercise03_05Extra {
             case 10: System.out.print("Your card is the Queen"); break;
             case 11: System.out.print("Your card is the King"); break;
             case 12: System.out.print("Your card is the Ace"); break;
-            default: System.out.print("Your card is the " + ((theCard % 13) + 2)); break;
+            default: System.out.print("Your card is the " + ((theCard % 13) + 2));
         }
     
         switch (theCard / 13) {
             case 0: System.out.print(" of Spades"); break;
             case 1: System.out.print(" of Hearts"); break;
             case 2: System.out.print(" of Diamonds"); break;
-            case 3: System.out.print(" of Clubs"); break;
+            case 3: System.out.print(" of Clubs");
         }
 
         System.out.print("\n");
