@@ -1,4 +1,4 @@
-public class JavaFuckingAround {
+public class JavaTesting {
 
   public static void print(Object obj) {
     System.out.print(obj);
